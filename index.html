@@ -2,35 +2,204 @@
 
 <html>
 
-<head>
+  <head>
 
-  <title>Meu Site</title>
+    <title>miau. - Site</title>
 
-  <style>
+    <h2>Website oficial GatosdeTerno</h2>
 
-    body {
+    <meta charset="UTF-8" />
 
-      background-color: #000080; /* azul escuro */
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      color: #fff; /* texto em branco */
+    <!-- Adicione aqui seus estilos CSS -->
 
-      font-family: Arial, sans-serif; /* fonte moderna */
+    <style>
 
-    }
+      /* Estilos para o tema azul escuro, azul claro e branco */
 
-    
+      /* Definindo as cores */
 
-    h1, h2, h3 {
+      :root {
 
-      color: #800000; /* vermelho escuro */
+        --cor-primaria: #d2691e; /* Azul escuro */
 
-    }
+        --cor-secundaria: #ffdab9; /* Azul claro */
 
-  </style>
+        --cor-texto: #a52a2a; /* Branco */
 
-</head>
+      }
 
+      /* Definindo estilos gerais */
 
+      body {
+
+        background-color: var(--cor-primaria);
+
+        color: var(--cor-texto);
+
+        font-family: Arial, sans-serif;
+
+        font-size: 50px;
+
+        line-height: 1.5;
+
+      }
+
+      /* Estilos para o cabeçalho */
+
+      header {
+
+        display: flex;
+
+        justify-content: space-between;
+
+        align-items: center;
+
+        padding: 9px;
+
+        background-color: var(--cor-secundaria);
+
+      }
+
+      header img {
+
+        height: 256px;
+
+      }
+
+      header h1 {
+
+        font-size: 32px;
+
+        margin: 0;
+
+      }
+
+      nav ul {
+
+        list-style: none;
+
+        margin: 0;
+
+        padding: 0;
+
+        display: flex;
+
+      }
+
+      nav li {
+
+        margin-left: 20px;
+
+      }
+
+      nav li:first-child {
+
+        margin-left: 0;
+
+      }
+
+      nav a {
+
+        color: var(--cor-texto);
+
+        text-decoration: none;
+
+        font-weight: bold;
+
+      }
+
+      nav a:hover {
+
+        text-decoration: underline;
+
+      }
+
+      /* Estilos para o conteúdo principal */
+
+      main {
+
+        padding: 40px;
+
+        max-width: 800px;
+
+        margin: 0 auto;
+
+      }
+
+      h2 {
+
+        font-size: 28px;
+
+      }
+
+      p {
+
+        font-size: 18px;
+
+        margin-bottom: 20px;
+
+      }
+
+      /* Estilos para o rodapé */
+
+      footer {
+
+        padding: 24px;
+
+        text-align: center;
+
+        background-color: var(--cor-secundaria);
+
+      }
+
+    </style>
+
+    <p>
+
+      <h2>
+
+        texto
+
+    </h2>
+
+    </p>
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <img
+
+        src="https://cdn.glitch.global/84763b2d-d8b0-4e00-bef7-53329d86b7a6/caminho_para_logo.png?v=1682941194435"
+
+        alt="Logo da AureliOS"
+
+      />
+
+    </header>
+
+    <footer>Miau da Silva - CEO da gatosterno
+
+    <nav>
+
+      <ul>
+
+      <li><a href="http://gatosterno.glitch.me/gatossegredo.html">gatos de terno</a></li>  
+
+        <li><a href="http://gatosterno.glitch.me/secreto.html">secreto</a></li>  
+
+      </ul>
+
+      </nav>
+
+    </footer>
+
+  </body>
 
 </html>
+
 
